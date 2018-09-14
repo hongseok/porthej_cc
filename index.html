@@ -1,0 +1,54 @@
+<!doctype html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<title>PORT H.E.J CCTV</title>
+<style>
+.grid { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  }
+.grid img {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 100%;
+}
+.topleft {
+    top: 16px;
+    left: 16px;
+    font-size: 16px;
+    background-color: white;
+    padding: 1px 3px 1px 3px;
+}
+</style>
+<main class="grid">
+  <div>
+    <img src="http://porthej.com:8911/webcapture.jpg?command=snap&channel=1">
+    <div class="topleft">주차장</div>
+  </div>
+  <div>
+    <img src="http://porthej.com:8912/webcapture.jpg?command=snap&channel=1">
+    <div class="topleft">도로</div>
+  </div>
+  <div>
+    <img src="http://porthej.com:8913/webcapture.jpg?command=snap&channel=1">
+    <div class="topleft">A세대 현관</div>
+  </div>
+  <div>
+    <img src="http://porthej.com:8914/webcapture.jpg?command=snap&channel=1">
+    <div class="topleft">A세대 마당</div>
+  </div>
+  <div>
+    <img src="http://porthej.com:8915/webcapture.jpg?command=snap&channel=1">
+    <div class="topleft">B세대 현관</div>
+  </div>
+  <div>
+    <img src="http://porthej.com:8916/webcapture.jpg?command=snap&channel=1">
+    <div class="topleft">B세대 마당</div>
+  </div>
+  <div>
+    <img src="http://porthej.com:8917/webcapture.jpg?command=snap&channel=1">
+    <div class="topleft">B세대 뒷문</div>
+  </div>
+</main>
